@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'nobilemedium';
+    src: url('font/nobile-medium-webfont.woff2') format('woff2'),
+         url('font/nobile-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: "nobilemedium", sans-serif;
+    height: 100%;
+    font-size: 20px;
+}
+
+.background_page {
+    background-image: url("images/needles_background_1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    float: left;
+}
+
+.navigation_menu ul {
+    list-style-type: none;
+    margin-top: 1.6rem;
+}
+
+.navigation_menu li {
+    display: inline-block;
+    margin: 0;
+    /* box-sizing: border-box;  */
+    /* overflow: visible; */
+    width: 78px;  
+    height: 40px; 
+    /* position: relative;  */
+    /* box-sizing: border-box;  */
+    /* overflow: visible;  */
+    /* visibility: inherit; */
+}
+
+.navigation_menu a {
+    text-decoration: none;
+    outline: none;
+    /* display: block; */
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: none;
+}
+
+.navigation_menu a:link,
+.navigation_menu a:visited {
+    background-color: rgb(37 37 38 / 60%);
+}
