@@ -21,27 +21,32 @@ html {
 
 nav {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.page_navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .navigation_menu ul {
     list-style-type: none;
-    margin-top: 1.6rem;
-    margin-left: 1.6rem;
+    /* margin-top: 1.6rem;
+    margin-left: 1.6rem; */
     border: 1px solid #b3b3b3;
     border-radius: 10px 10px;
     padding-left: 0;
     display: flex;
 }
 
-.navigation_menu li {
-    margin: 0;
-}
-
 .navigation_menu a {
     text-decoration: none;
     outline: none;
-    width: 100%;
+    /* width: 100%; */
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -56,7 +61,6 @@ nav {
     border-bottom-right-radius: 9px;
 }
 
-
 .navigation_menu a:link,
 .navigation_menu a:visited {
     background-color: rgba(143, 143, 148, 0.6);
@@ -69,14 +73,12 @@ nav {
 }
 
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    /* flex: 0 0 auto; */
+    /* margin: 0 auto; */
 }
 
 .navigation_other {
-    margin-top: 1.6rem;
-    margin-right: 1.6rem;
-    vertical-align: middle;
+    /* margin-top: 1rem; */
+    margin-left: 4.3em;
+    /* vertical-align: middle; */
 }
