@@ -100,8 +100,12 @@ nav {
     margin-bottom: 1.8em;
 }
 
+.logo_color {
+    
+}
+
 .history_text {
-    display: flex;
+    display: inline;
 }
 
 .history_text p {
