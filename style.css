@@ -30,7 +30,7 @@ html {
 nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 .navigation_menu ul {
@@ -125,6 +125,39 @@ nav {
     margin-right: 10%;
     display: flex;
     align-items: center;
+}
+
+
+/* caralog */
+.catalog .catalog_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalog .catalog_row .product {
+    border: 5px solid rgba(179, 255, 251, 0.2);
+    border-radius: 10px 10px;
+    margin-bottom: 10%;
+    padding: 15px;
+}
+
+.catalog .catalog_row:first-child {
+    margin-top: 15%;
+}
+
+.catalog .catalog_row .product:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.catalog .catalog_row .product:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.catalog .catalog_row p {
+    text-align: center;
+    line-height: 40px;
 }
 
 /* footer */
